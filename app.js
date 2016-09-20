@@ -8,9 +8,7 @@ app.set('port', 8888);
 
 app.use(function(req, res) {
     console.log("Request string: " + req.url);
-    if(req.url === "/form" || req.url === "/") {
-        router.match(req, res, req.url, postData);
-    }
+    router.match(req, res, req.url, postData);
 });
 app.listen(app.get('port'));
 /*

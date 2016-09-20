@@ -15,7 +15,8 @@ let RoutesConfig = {
     },
     controllers: {
         onform: folders.controllers + '/form',
-        actions: folders.controllers + '/actions'
+        actions: folders.controllers + '/actions',
+        public:  folders.controllers + '/public'
     },
 
     getController: function(name) {

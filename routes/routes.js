@@ -28,6 +28,6 @@ module.exports = [
     {
       pattern: '/public/.*',
       methods: ['GET'],
-      action: 'scripts::getScripts'
+      action: 'public::getPublic'
     }
 ];
